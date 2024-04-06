@@ -73,6 +73,18 @@
                 android:gravity="start|center_vertical"
                 android:textColor="@color/lavender"/>
 
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/uploadBloodGp"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:hint="Blood Group"
+                android:textColor="@color/lavender"
+                android:layout_gravity="start|center_vertical"/>
+
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
