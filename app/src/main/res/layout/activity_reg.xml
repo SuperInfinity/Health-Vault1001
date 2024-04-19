@@ -7,6 +7,16 @@
     android:layout_height="match_parent"
     tools:context=".RegActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="REGISTER"
+        android:textColor="@color/lavender"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/regEmail"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <EditText
         android:id="@+id/regEmail"
         android:layout_width="match_parent"
@@ -14,6 +24,7 @@
         android:layout_marginTop="160dp"
         android:background="@drawable/lavender_border"
         android:hint="Email"
+        android:gravity="center"
         android:textSize="30sp"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="0dp" />
@@ -22,6 +33,7 @@
         android:id="@+id/regPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:background="@drawable/lavender_border"
         android:hint="Password"
         android:textSize="30sp"
